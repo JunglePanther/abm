@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#form-container button:hover {
+    background-color: #0056b3;
+}
+
+#data-list {
+    margin-top: 20px;
+    width: 300px;
+}
+
+#data-list div {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#data-list div button {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#data-list div button:first-of-type {
+    background-color: #28a745;
+    color: white;
+    margin-right: 5px;
+}
+
+#data-list div button:first-of-type:hover {
+    background-color: #218838;
+}
+
+#data-list div button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+
+#data-list div button:last-of-type:hover {
+    background-color: #c82333;
+}
